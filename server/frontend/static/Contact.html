@@ -1,0 +1,78 @@
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="static/bootstrap.min.css">
+</head>
+
+<body onload="checkSession()">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#E0B0FF; height: 1in;">
+  <div class="container-fluid">
+    <h2 style="padding-right: 5%;">Dealerships</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <div class="loginlink" id="loginlogout">
+        </div>
+        </span>
+    </div>
+  </div>
+</nav>
+
+<div style="display: flex; flex-direction: column; width: 80%; margin: 30px auto; border-radius: 20px; border: 1px solid #ccc; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #fff;">
+    
+    <!-- Top Centered Card -->
+    <div style="width: 50%; margin: 0 auto 15px auto;">
+        <img src="https://images.unsplash.com/photo-1505592225030-dad7a0531844?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+             alt="Top Image" style="width: 100%; border-radius: 10px">
+    </div>
+
+    <!-- Bottom Row with Two Cards Side-by-Side -->
+    <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%; margin: 0 auto;">
+        
+        <!-- Left Card -->
+        <div style="width: 43%; align-self: flex-left;">
+            <img src="https://images.unsplash.com/photo-1499159058454-75067059248a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                 alt="Bottom Left Image" style="width: 100%; border-radius: 60px">
+        </div>
+
+        <!-- Right Card with Text -->
+        <div style="width: 43%; display: flex; align-self: flex-right; padding: 2%">
+            <div style="border-left: 2px solid #ccc; padding-left: 2%; font-family: Helvetica, Arial, sans-serif; color: #333;">
+                <h5>Get in touch with us:</h5>
+                <p>
+                  <strong>Sales Department</strong><br>
+                  <a href="sales@bestcars.com>sales@bestcars.com">sales@bestcars.com</a>  (555)234-7890
+                </p>
+                <p>
+                  <strong>Service Department</strong><br>
+                  <a href="service@bestcars.com">service@bestcars.com</a>  (555)345-6789
+                </p>
+                <p>
+                  <strong>Finance Department</strong><br>
+                  <a href="finance@bestcars.com">finance@bestcars.com</a>  (555)456-8901
+                </p>
+                <p>
+                  <strong>Support</strong><br>
+                  <a href="service@bestcars.com">support@bestcars.com</a>  (555)567-9012
+                </p>
+            </div>   
+        </div>
+    </div>
+</div>
+</body>
+</html>
